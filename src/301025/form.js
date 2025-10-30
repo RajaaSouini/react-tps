@@ -12,7 +12,8 @@ function changePrenom(e){
 function changeAge(e){
     setAge(e.target.value)
 }
-useEffect(function(){document.title=nom+" "+prenom+" "+age;})
+useEffect(function(){document.title=nom+" "+prenom;},[])
+
 
 return(
     <div>
