@@ -9,6 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 import ChechBoxTest from './281025/checkbox';
 import Compteur from './301025/exempleinc';
 import AppCompteur from './301025/APPcompteur';
+import Salutation from './301025/form';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  
     <BrowserRouter>
-      <Compteur/>
+      <Salutation/>
     </BrowserRouter>
 
 );
