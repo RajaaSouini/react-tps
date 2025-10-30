@@ -7,17 +7,18 @@ import RechercherProduit from './281025/rechercher';
 import Formulaire1 from './281025/formulaire';
 import { BrowserRouter } from 'react-router-dom';
 import ChechBoxTest from './281025/checkbox';
-import Compteur from './301025/exemplecours';
+import Compteur from './301025/exempleinc';
+import AppCompteur from './301025/APPcompteur';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <React.StrictMode>
+ 
     <BrowserRouter>
       <Compteur/>
     </BrowserRouter>
-  </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

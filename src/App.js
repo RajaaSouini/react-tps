@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import ListerPays from './controle1Revision/ex2';
+import Salutation from './301025/salutation';
 
 function App() {
   return (
     <div className="App">
 
-      <ListerPays/>
+      <Salutation/>
     </div>
   );
 }
