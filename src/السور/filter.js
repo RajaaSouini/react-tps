@@ -7,15 +7,12 @@ function Filter({ list, filterAya }) {
   const handleChange1 = (e) => {
     setSaisie1(e.target.value);
   };
-
   const handleChange2 = (e) => {
     setSaisie2(e.target.value);
   };
-
   const Recherche = list.filter(
     (l) => l.totales_verses >= saisie1 && l.totales_verses <= saisie2
   );
-
   const handleClick = () => {
     filterAya(Recherche);
   };
