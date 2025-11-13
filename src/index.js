@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Resultats from './seance6/Ex5';
-import App from './121125/App';
-import App2 from './السور/App2';
+import App from './TpImage_recherchePrix/App';
 
 const etudiants = [{nom : "souini", option: "dd" , note: 20 , status :"admis"},
   {nom : "souini", option: "dd" , note: 20 , status :"admis"},{nom : "souini", option: "dd" , note: 20 , status :"admis"}];
@@ -12,7 +11,7 @@ const etudiants = [{nom : "souini", option: "dd" , note: 20 , status :"admis"},
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App2/>
+    <App/>
 
   </React.StrictMode>
 );
