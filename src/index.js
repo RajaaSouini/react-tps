@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Resultats from './seance6/Ex5';
 import App from './121125/App';
-import App2 from './121125/App2';
+import App2 from './السور/App2';
 
 const etudiants = [{nom : "souini", option: "dd" , note: 20 , status :"admis"},
   {nom : "souini", option: "dd" , note: 20 , status :"admis"},{nom : "souini", option: "dd" , note: 20 , status :"admis"}];
