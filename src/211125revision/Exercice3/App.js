@@ -7,9 +7,10 @@ function App (){
             <Navbar>
                 <Routes>
                     <Route path="/navbar" element={<Navbar/>}></Route>
-                    <Route path="/Listeuser"></Route>
+                    <Route path="/Listeuser" ></Route>
                 </Routes>
             </Navbar>
         </BrowserRouter>
     </>);
 }
+export default App;

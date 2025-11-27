@@ -37,11 +37,11 @@ function FormEx3(){
             <label><input type="checkbox" name="offre" value="offre" onChange={handleChange}/>Reccevoir des offres</label><br/>
             <label>Message</label>
             <textarea
-          value={area}
-          onChange={(e) => setArea(e.target.value)}
-          rows="4"
-          cols="40"
-        ></textarea>
+                value={area}
+                onChange={(e) => setArea(e.target.value)}
+                rows="4"
+                cols="40"
+            ></textarea>
             <button type="submit">Envoyer</button>
         </form>
 

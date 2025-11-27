@@ -7,10 +7,12 @@ import InfosPays from './211125revision/controle/ex3';
 import OnSubmit from './marevisionControle/onsubmit';
 import Form from './marevisionControle/form2';
 import Pass from './marevisionControle/password';
-import App from './controle2202/exercice2ParentChild/App';
+
 import FormEx3 from './controle2202/exerciceformulaire/formex3';
 import ExempleAxios from './marevisionControle/API/axios';
 import UseEffectTest from './marevisionControle/API/useEffect';
+import App from './marevisionControle/routageexemple/App';
+import InfosPublicatons from './controle2202/ex1/quest1axios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
