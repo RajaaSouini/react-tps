@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Resultats from './seance6/Ex5';
-import App from './TpImage_recherchePrix/App';
-
-const etudiants = [{nom : "souini", option: "dd" , note: 20 , status :"admis"},
-  {nom : "souini", option: "dd" , note: 20 , status :"admis"},{nom : "souini", option: "dd" , note: 20 , status :"admis"}];
+import Exercice4Styled from './211125revision/Exercice4/styled';
+import InfosPays from './211125revision/controle/ex3';
+import OnSubmit from './marevisionControle/onsubmit';
+import Form from './marevisionControle/form2';
+import Pass from './marevisionControle/password';
+import App from './marevisionControle/sowar/app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
